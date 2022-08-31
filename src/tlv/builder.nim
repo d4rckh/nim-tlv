@@ -6,6 +6,7 @@ type
     buf*: seq[byte]
 
 proc initBuilder*(): Builder =
+  ## Initializes the builder
   Builder()
 
 proc addInt32*(builder: Builder, value: int32 = 0) =
@@ -18,10 +19,9 @@ proc addInt32*(builder: Builder, value: int32 = 0) =
 
 proc addChar*(builder: Builder, value: char) =
   ## Adds a char to the buffer
-  let int32bytes = cast[array[1, byte]](value)
+  let charbyte = cast[byte](value)
+  builder.buf.add charbyte
   
-  for byt in int32bytes: builder.buf.add byt
-
 proc addString*(builder: Builder, str: string) =
   ## Adds an int32 (indicating the size of the string) and a string to the buffer
   builder.addInt32(cast[int32](len str))
