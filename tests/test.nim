@@ -1,5 +1,5 @@
 import unittest
-import tlv/[builder, parser]
+import tlv
 
 test "build and parse int32":
   var builder = initBuilder()

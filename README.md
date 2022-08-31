@@ -4,7 +4,7 @@ simplified tlv building and parsing in nim
 ## example
 
 ```nim
-import tlv/[builder, parser]
+import tlv
 
 var b = initBuilder()
 
