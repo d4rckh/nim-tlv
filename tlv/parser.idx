@@ -1,0 +1,9 @@
+Parser	tlv/parser.html#Parser	parser: Parser	
+initParser	tlv/parser.html#initParser	parser: initParser(): Parser	
+initParser	tlv/parser.html#initParser,Builder	parser: initParser(builder: Builder): Parser	
+setBuffer	tlv/parser.html#setBuffer,Parser,seq[byte]	parser: setBuffer(parser: Parser; buf: seq[byte])	
+getCursor	tlv/parser.html#getCursor,Parser	parser: getCursor(parser: Parser): int	
+extractInt32	tlv/parser.html#extractInt32,Parser	parser: extractInt32(parser: Parser): int32	
+extractChar	tlv/parser.html#extractChar,Parser	parser: extractChar(parser: Parser): char	
+extractString	tlv/parser.html#extractString,Parser	parser: extractString(parser: Parser): string	
+extractBool	tlv/parser.html#extractBool,Parser	parser: extractBool(parser: Parser): bool	

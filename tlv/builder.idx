@@ -1,0 +1,6 @@
+Builder	tlv/builder.html#Builder	builder: Builder	
+initBuilder	tlv/builder.html#initBuilder	builder: initBuilder(): Builder	
+addInt32	tlv/builder.html#addInt32,Builder,int32	builder: addInt32(builder: Builder; value: int32 = 0)	
+addChar	tlv/builder.html#addChar,Builder,char	builder: addChar(builder: Builder; value: char)	
+addString	tlv/builder.html#addString,Builder,string	builder: addString(builder: Builder; str: string)	
+addBool	tlv/builder.html#addBool,Builder,bool	builder: addBool(builder: Builder; boolean: bool)	
