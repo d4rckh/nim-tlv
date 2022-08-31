@@ -31,3 +31,7 @@ proc addBool*(builder: Builder, boolean: bool) =
   ## Adds a 1 byte bool to the buffer
   let boolbyte = cast[byte](boolean)
   builder.buf.add boolbyte
+
+proc encodeString*(builder: Builder): string = 
+  ## Cast the buf to a string and return it
+  result = cast[string](builder.buf)
