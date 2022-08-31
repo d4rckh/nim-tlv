@@ -2,8 +2,7 @@ import builder
 
 type
   Parser* = ref object
-    ## The main parser object. \
-    ## To initialize, call `initParser` and then `setBuffer`
+    ## The main parser object. To initialize, call `initParser` and then `setBuffer`
     buf: seq[byte] ## Stores the buffer to be parsed
     cursor: int ## Stores the current position from which future values will be read
 
