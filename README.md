@@ -1,5 +1,5 @@
 # nim-tlv
-tlv building and parsing in nim
+simplified tlv building and parsing in nim
 
 ## example
 
