@@ -130,6 +130,11 @@ window.addEventListener('DOMContentLoaded', main);
     title="addString(builder: Builder; str: string)">addString(builder: Builder; str: string)</a></li>
 
   </ul>
+  <ul class="simple nested-toc-section">encodeString
+      <li><a class="reference" href="#encodeString%2CBuilder"
+    title="encodeString(builder: Builder): string">encodeString(builder: Builder): string</a></li>
+
+  </ul>
   <ul class="simple nested-toc-section">initBuilder
       <li><a class="reference" href="#initBuilder"
     title="initBuilder(): Builder">initBuilder(): Builder</a></li>
@@ -197,6 +202,14 @@ Adds an int32 (indicating the size of the string) and a string to the buffer
 
 </dd>
 </div>
+<div id="encodeString,Builder">
+<dt><pre><span class="Keyword">proc</span> <a href="#encodeString%2CBuilder"><span class="Identifier">encodeString</span></a><span class="Other">(</span><span class="Identifier">builder</span><span class="Other">:</span> <a href="builder.html#Builder"><span class="Identifier">Builder</span></a><span class="Other">)</span><span class="Other">:</span> <span class="Identifier">string</span> {.<span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
+<dd>
+
+Cast the buf to a string and return it
+
+</dd>
+</div>
 <div id="initBuilder">
 <dt><pre><span class="Keyword">proc</span> <a href="#initBuilder"><span class="Identifier">initBuilder</span></a><span class="Other">(</span><span class="Other">)</span><span class="Other">:</span> <a href="builder.html#Builder"><span class="Identifier">Builder</span></a> {.<span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
@@ -215,7 +228,7 @@ Initializes the builder
       <div class="twelve-columns footer">
         <span class="nim-sprite"></span>
         <br/>
-        <small style="color: var(--hint);">Made with Nim. Generated: 2022-08-31 13:09:23 UTC</small>
+        <small style="color: var(--hint);">Made with Nim. Generated: 2022-08-31 15:04:32 UTC</small>
       </div>
     </div>
   </div>

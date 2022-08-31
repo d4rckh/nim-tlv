@@ -4,3 +4,4 @@ addInt32	tlv/builder.html#addInt32,Builder,int32	builder: addInt32(builder: Buil
 addChar	tlv/builder.html#addChar,Builder,char	builder: addChar(builder: Builder; value: char)	
 addString	tlv/builder.html#addString,Builder,string	builder: addString(builder: Builder; str: string)	
 addBool	tlv/builder.html#addBool,Builder,bool	builder: addBool(builder: Builder; boolean: bool)	
+encodeString	tlv/builder.html#encodeString,Builder	builder: encodeString(builder: Builder): string	
