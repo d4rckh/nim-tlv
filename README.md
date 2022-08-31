@@ -1,5 +1,11 @@
 # nim-tlv
-simplified tlv building and parsing in nim
+Simplified TLV building and parsing in nim. Currently supported types:
+
+- int32's add 4 bytes
+- chars add 1 byte
+- strings add 4 bytes (int32 length) + 1 byte x string len (string chars)
+- booleans add 1 byte
+- more types coming soon
 
 ## examples
 
