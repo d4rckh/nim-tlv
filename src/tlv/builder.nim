@@ -22,3 +22,7 @@ proc addChar*(builder: Builder, value: char) =
 proc addString*(builder: Builder, str: string) =
   builder.addInt32(cast[int32](len str))
   for chr in str: builder.addChar(chr)
+
+proc addBool*(builder: Builder, boolean: bool) =
+  let boolbyte = cast[byte](boolean)
+  builder.buf.add boolbyte

@@ -1,12 +1,4 @@
-# This is just an example to get you started. You may wish to put all of your
-# tests into a single file, or separate them into multiple `test1`, `test2`
-# etc. files (better names are recommended, just make sure the name starts with
-# the letter 't').
-#
-# To run these tests, simply execute `nimble test`.
-
 import unittest
-
 import tlv/[builder, parser]
 
 test "build and parse int32":
@@ -32,3 +24,11 @@ test "build and parse string":
   parser.setBuffer(builder.buf)
 
   check parser.extractString() == "hello world"
+
+test "build and parse boolean":
+  var builder = initBuilder()
+  builder.addBool(true)
+  var parser = initParser()
+  parser.setBuffer(builder.buf)
+
+  check parser.extractBool() == true

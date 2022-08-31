@@ -24,5 +24,8 @@ proc extractString*(parser: Parser): string =
 
   for _ in 0..(size - 1):
     str.add parser.extractChar()
-  
   return str
+
+proc extractBool*(parser: Parser): bool =
+  result = (cast[ptr bool](addr parser.buf[parser.cursor]))[]
+  parser.cursor += 1
