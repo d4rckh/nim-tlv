@@ -7,6 +7,10 @@ Simplified TLV building and parsing in nim. Currently supported types:
 - booleans add 1 byte
 - more types coming soon
 
+## docs
+
+[https://d4rckh.github.io/nim-tlv/tlv](https://d4rckh.github.io/nim-tlv/tlv)
+
 ## examples
 
 ### simple values
