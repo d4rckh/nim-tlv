@@ -2,7 +2,7 @@
 
 version       = "0.1.0"
 author        = "d4rckh"
-description   = "a tlv builder and parser for nim"
+description   = "A simple TLV parser and builder for nim"
 license       = "MIT"
 srcDir        = "src"
 
