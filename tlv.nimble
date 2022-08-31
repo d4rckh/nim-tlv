@@ -1,6 +1,6 @@
 # Package
 
-version       = "1.0.0"
+version       = "1.1.0"
 author        = "d4rckh"
 description   = "A simple TLV parser and builder for nim"
 license       = "MIT"
